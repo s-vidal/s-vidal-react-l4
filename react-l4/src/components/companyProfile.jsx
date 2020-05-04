@@ -7,7 +7,8 @@ class CompanyProfile extends Component {
       compName: "Google",
       compInfo:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et perferendis unde eligendi nulla laudantium magni? Voluptatum exercitationem eaque impedit repellendus, quasi quidem inventore quia? Cupiditate iste officiis temporibus praesentium harum.",
-      compUrl: "",
+      compUrl:
+        "https://lh3.googleusercontent.com/_RS8nTX8HLPW-dDr374dEdQTaYn-7LI8HVVk0INaAmk7t8MYZKDssvGnep-GwPR94LJPxqq6UDnbm4tonioTpkl4Kqr6-k-670teZA=h128",
       compLink: "https://about.google/products/",
     };
   }
@@ -16,11 +17,11 @@ class CompanyProfile extends Component {
     return (
       <div className="container">
         <div className="row mt-5">
-          <div className="col-2 mr-5">
+          <div className="col-1 mr-5 mt-4">
             <h3>{compName}</h3>
           </div>
           <div className="col-1">
-            <img src={compUrl} alt="Google Logo" />
+            <img width="80" src={compUrl} alt="Google Logo" />
           </div>
         </div>
         <div className="mt-4">
